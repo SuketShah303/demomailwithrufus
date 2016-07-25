@@ -11,7 +11,7 @@ scheduler.every '5s' do
 # UserMailer.demo_mail(@user).deliver_now
 ##system 'bundle exec rake demo:mail_users'
 #system 'rake demo:mail_users'
-puts 'Hello... Rufus'
+puts 'Hello... Suket'
 end 
 
 
