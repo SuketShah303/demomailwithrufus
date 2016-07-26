@@ -7,7 +7,7 @@ scheduler.every '15m' do
  # def test
   @user = User.new(name:'Suket shah',email:"shah_suket@network.elanco.com")
   puts 'Hello... Suket shah test'
-  UserMailer.registration_confirmation(@user).deliver_now
+ # UserMailer.registration_confirmation(@user).deliver_now
  #end 
 end
 
