@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'
 require 'rufus-scheduler'
 scheduler = Rufus::Scheduler.new
-scheduler.every '5s' do
+scheduler.every '15m' do
 # system 'bundle exec rake demo:mail_users'
  # def test
   @user = User.new(name:'Suket shah',email:"shah_suket@network.elanco.com")
