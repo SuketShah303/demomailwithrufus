@@ -5,7 +5,7 @@ scheduler = Rufus::Scheduler.new
 scheduler.every '5s' do
 # system 'bundle exec rake demo:mail_users'
 def test
- @user = User.new(name: 'Suket shah',email : "shah_suket@network.elanco.com")
+ @user = User.new(name:'Suket shah',email:"shah_suket@network.elanco.com")
  puts 'Hello... Suket shah test'
  UserMailer.registration_confirmation(@user).deliver_now
 end 
